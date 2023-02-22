@@ -1,6 +1,26 @@
 body {
-  color: blue;
-  background-color: lightsalmon;
+  color: grey;
+  background-color: black;
   text-shadow: purple;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
   
+}
+
+.column {
+  float: left;
+  width: 50%;
+
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+footer {
+  margin-top: auto;
 }
