@@ -1,17 +1,13 @@
 body {
   color: lightcoral;
-  background-color: paleturquoise;
-  text-shadow: purple;
+  background-color: white;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: normal, bold;
+  text-transform: uppercase;
   
-}
-
-.column {
-  float: left;
-  width: 50%;
-
 }
 
 .row:after {
@@ -20,7 +16,28 @@ body {
   clear: both;
 }
 
+.column {
+  float: left;
+  width: 50%;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+
+
 
 footer {
   margin-top: auto;
+}
+
+@media (min-width: 1081px) {
+  body {
+    background-color: aliceblue;
+  }
+}
+
+@media(min-width: 1200px) {
+   body {
+    background-color: brown;
+   }
+
 }
